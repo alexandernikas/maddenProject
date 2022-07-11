@@ -1,0 +1,12 @@
+streamlit
+pandas
+utils
+numpy
+matplotlib.pyplot
+quarterBack
+runningBack
+wideReciever
+tightEnd
+requests
+string
+matplotlib.patches
