@@ -19,7 +19,7 @@ if pos == '--':
     st.sidebar.selectbox('Select Player:',['--'])
     st.title('Your Favorite Skill Position Player is Terrible')
     st.image('https://www.si.com/.image/t_share/MTg0OTA2NjA1MDczMDE1OTI4/aaron-rodgers.jpg')
-    st.subheader("Why wait until the playoffs (or Week 9 if you root for a poverty franchise) to realize that your favorite NFL player is a fraud and a choke artist? I've cut out the middleman and quantified all the areas in which your favorite player is painfully subpar. Enjoy.")
+    st.subheader("Why wait until the playoffs (or Week 9 if you root for a poverty franchise) to realize that your favorite NFL player is a fraud and a choke artist? I've cut out the middleman and quantified all the areas in which your favorite player is subpar.")
 
 
 if pos == 'Quarterback':
