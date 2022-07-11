@@ -1,12 +1,11 @@
-streamlit
-pandas
+streamlit==1.10.0
+pandas==1.3.4
 utils
-numpy
-matplotlib.pyplot
+numpy==1.21.4
+matplotlib==3.5.2
 quarterBack
 runningBack
 wideReciever
 tightEnd
-requests
+requests==2.26.0
 string
-matplotlib.patches
