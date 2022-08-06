@@ -11,6 +11,16 @@ import tightEnd as te
 #set page width
 st.set_page_config(layout="wide")
 
+#remove 'made with streamlit' footer
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
 pos = st.sidebar.selectbox('Select Position',['--','Quarterback','Running Back','Wide Reciever','Tight End'])
 # atr = st.sidebar.selectbox('Select attribute', tl.mdnZ.columns.tolist())
 # fxn = st.sidebar.selectbox('Select function', ['standard deviation','regression analysis'])
